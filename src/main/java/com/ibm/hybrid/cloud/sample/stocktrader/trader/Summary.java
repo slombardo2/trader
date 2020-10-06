@@ -181,7 +181,7 @@ public class Summary extends HttpServlet {
 			writer.append("    </form>");
 		}
 		writer.append("    <br/>");
-		writer.append("    <a href=\"https://github.com/IBMStockTrader\">");
+		writer.append("    <a href=\"https://github.com/slombardo2\">");
 		writer.append("      <img src=\"footer.jpg\"/>");
 		writer.append("    </a>");
 		writer.append("  </body>");
