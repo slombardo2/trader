@@ -19,8 +19,9 @@
 
 image:
   # Docker Hub with basic registry sign in
-  repository: ibmstocktrader/trader
-  tag: basicregistry
+  repository: slombardo2/trader
+  tag: latest
+  #tag: basicregistry
   # IBM Cloud Private
   #repository: mycluster.icp:8500/stock-trader/trader
   #tag: latest
