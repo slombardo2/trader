@@ -54,7 +54,7 @@ public class Error extends HttpServlet {
 		writer.append("      <input type=\"submit\" name=\"submit\" value=\"Try again\" style=\"font-family: sans-serif; font-size: 16px;\">");
 		writer.append("    </form>");
 		writer.append("    <br/>");
-		writer.append("    <a href=\"https://github.com/IBMStockTrader/\">");
+		writer.append("    <a href=\"https://github.com/slombardo2/\">");
 		writer.append("      <img src=\"footer.jpg\"/>");
 		writer.append("    </a>");
 		writer.append("  </body>");
