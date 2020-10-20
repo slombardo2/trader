@@ -94,6 +94,13 @@ spec:
                 name: urls
                 key: portfolio
                 optional: true
+          #DEM configuration settings
+          - name: IBM_APM_RUM_ENABLED
+            value: "true"
+          - name: JAEGER_SAMPLER_TYPE
+            value: "probabilistic"
+          - name: JAEGER_SAMPLER_PARAM
+            value: "1.00"
         ports:
           - containerPort: 9080
           - containerPort: 9443
@@ -117,10 +124,10 @@ spec:
         resources:
           limits:
             cpu: 500m
-            memory: 500Mi
+            memory: 1000Mi
           requests:
             cpu: 100m
-            memory: 128Mi
+            memory: 500Mi
 ---
 #Deploy the autoscaler
 apiVersion: autoscaling/v1
