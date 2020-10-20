@@ -1,0 +1,5 @@
+JAVA_HOME=/opt/java/openjdk
+LIBERTY_HOME=/opt/ol/wlp
+SERVER_NAME=*
+ADD_XMX_SIZE=True
+SERVER_TYPE=ICAM
